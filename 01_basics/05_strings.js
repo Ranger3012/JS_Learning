@@ -34,3 +34,5 @@ console.log(url.includes('MK')); //output => True.
 console.log(gameName.split("-")); //seprate gameName based on "-"
 
 
+console.log("End of strings file.");
+
