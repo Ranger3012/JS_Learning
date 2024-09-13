@@ -37,3 +37,28 @@ console.log(obj4);
 
 const obj5 = {...obj1, ...obj2}; //regular coder use this spread method to combine.
 console.log(obj5);
+
+
+const users = [
+    {
+        id:1,
+        email:"MKCODER@gmail.com"
+    },
+    {
+
+    },
+    {
+
+    }
+]// array with lots of object
+
+users[1].email
+console.log(gitUser);
+
+console.log(Object.keys(gitUser));
+console.log(Object.values(gitUser));
+console.log(Object.entries(gitUser));
+
+console.log(gitUser.hasOwnProperty('isLoggedIn'));
+
+
