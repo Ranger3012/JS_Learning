@@ -30,11 +30,16 @@ chai2()
 
 
 const addTwo = (num1, num2) => {
-    return num1 + num2
+    return num1 + num2 //explicite return
 }
 console.log(addTwo(3,4));
 
 const addThree = (num1,num2) => num1 + num2  //implicite return // if we use {} then have to use return
 console.log(addThree(4,7));
 
-const addFour = (num1, num2) => ({username4 : "MK_Coder"}) // to return object implicitly you must put it in ()
+const addFour = (num1, num2) => ({username4 : "MK_Coder"}) // to return object implicitly you must put it in ().
+
+const myArray = [2,3,4,5,6,7]
+
+myArray.forEach(() => {}) //arrow function used in array
+
