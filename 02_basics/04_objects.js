@@ -62,3 +62,25 @@ console.log(Object.entries(gitUser));
 console.log(gitUser.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    courseName: "Js course",
+    price: "10",
+    courseInstructor: "MK"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: teacher} = course; //clean code
+console.log(teacher); // i can use teacher insted of courseInstructor
+
+//{
+  //  "name": "MK",
+    //"courseName": "JS",
+    //"price": "free"
+//}  //JSON looklike this (API)
+
+[
+    {},
+    {},
+    {}
+] //API sometimes looklike this
