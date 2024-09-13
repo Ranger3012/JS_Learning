@@ -34,3 +34,6 @@ console.log(obj3);
 
 const obj4 = Object.assign({},obj1,obj2); //we use {} for 1st as empty object. then its adding obj1 and obj2 to this empty object.(good way to write code).
 console.log(obj4);
+
+const obj5 = {...obj1, ...obj2}; //regular coder use this spread method to combine.
+console.log(obj5);
