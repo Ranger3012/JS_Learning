@@ -70,7 +70,7 @@ const course = {
 
 //course.courseInstructor
 
-const {courseInstructor: teacher} = course; //clean code
+const {courseInstructor: teacher} = course; //clean code //de-structure
 console.log(teacher); // i can use teacher insted of courseInstructor
 
 //{
