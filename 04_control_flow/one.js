@@ -38,3 +38,26 @@ if (score > 100){
     const power = "Fly"
     console.log(`User power: ${power}`);
 }
+
+const balance = 101200
+
+if (balance < 10000) console.log("Test"); //inplicit scope
+
+if(balance > 1000){
+    console.log("Greater than 1000");
+}else if (balance > 5000){
+    console.log("Greater than 5000");
+}
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if (userLoggedIn && debitCard){
+    console.log("Allow to do shopping.");
+}
+
+if (loggedInFromGoogle || loggedInFromEmail){
+    console.log("User Logged In.");
+}
