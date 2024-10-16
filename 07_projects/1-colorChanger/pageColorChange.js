@@ -22,6 +22,6 @@ buttons.forEach(function (button) {
                 body.style.backgroundColor = none;
                 break;
         }
-    })
-})
+    });
+});
 
