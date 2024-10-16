@@ -11,7 +11,36 @@
         <li>Java</li>
     </ul>
 </body>
-<style>
-    
-</style>
+<script>
+    function addLanguage(langName){
+        const Li = document.createElement('li');
+        Li.innerHTML = `${langName}`
+        document.querySelector('.language').appendChild(Li)
+    }
+    addLanguage('Python')
+
+    function addOptiLangauge(langName){
+        const Li = document.createElement('li');
+        Li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(Li)
+    }
+    addOptiLangauge('HTML')
+
+    //Edit
+    const second_lang = document.querySelector("li:nth-child(2)")
+    //second_lang.innerHTML = "Mojo"
+    const newLi = document.createElement('li')
+    newLi.textContent = "Mojo"
+    second_lang.replaceWith(newLi)
+
+    //edit
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>TypeScript</li>'
+
+    //remove
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove()
+</script>
+
+
 </html>
